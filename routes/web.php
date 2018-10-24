@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () use ($router) {
-    return $router->app->version();
+Route::get('/', function () {
+    return view('welcome');
 });
