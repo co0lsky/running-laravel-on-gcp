@@ -1,7 +1,13 @@
 runtime: php72
 
+# Put production environment variables here.
 env_variables:
-  # Put production environment variables here.
-  APP_LOG: errorlog
+  # Applicaton key
   APP_KEY: base64:neD3pkZQV26sd9OxZ8cp3jyERMnrt0X5guevJzw65N4=
+  # Storage path
   APP_STORAGE: /tmp
+  ## Set these environment variables according to your CloudSQL configuration.
+  # DB_DATABASE: running-laravel-on-gcp
+  # DB_USERNAME: root
+  # DB_PASSWORD: secret
+  # DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp"
