@@ -7,7 +7,7 @@ env_variables:
   # Storage path
   APP_STORAGE: /tmp
   ## Set these environment variables according to your CloudSQL configuration.
-  # DB_DATABASE: running-laravel-on-gcp
-  # DB_USERNAME: root
-  # DB_PASSWORD: secret
-  # DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp"
+  DB_DATABASE: running-laravel-on-gcp
+  DB_USERNAME: laravel
+  DB_PASSWORD: C0mpl3xP4ssw0rd
+  DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp"
