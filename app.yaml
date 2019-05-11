@@ -11,3 +11,6 @@ env_variables:
   DB_USERNAME: laravel
   DB_PASSWORD: C0mpl3xP4ssw0rd
   DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp"
+  FILESYSTEM_DRIVER: gcs
+  GOOGLE_CLOUD_PROJECT_ID: running-laravel-on-gcp
+  GOOGLE_CLOUD_STORAGE_BUCKET: running-laravel-on-gcp.appspot.com
