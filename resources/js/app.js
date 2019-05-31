@@ -7,6 +7,10 @@
 
 require('./bootstrap');
 
+import { MM } from 'vue-media-manager';
+require('vue-media-manager/dist/style.css');
+require('font-awesome/css/font-awesome.css');
+
 window.Vue = require('vue');
 
 /**
@@ -17,6 +21,17 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+// const app = new Vue({
+//     el: '#app'
+// });
+
+const mm = new MM({
+    el: '#media-manager',
+    api: {
+        baseUrl: 'http://localhost:8000/api/mm',
+        listUrl: 'list',
+        downloadUrl: 'download',  // optional
+        uploadUrl: 'upload',      // optional
+        deleteUrl: 'delete'       // optional
+    }
 });

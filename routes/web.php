@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/media-manager', function () {
+    return view('media-manager');
+});
+
 Route::post('/updateAvatar', 'UserAvatarController@update');

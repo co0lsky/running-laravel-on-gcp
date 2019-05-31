@@ -22,3 +22,6 @@ Route::post('/{id}', 'UpdateLocation');
 
 Route::get('/{id}/trackings', 'ListTracking');
 Route::post('/{id}/trackings', 'AddTracking');
+
+
+Route::get('/mm/list', 'MM\Listing');
