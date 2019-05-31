@@ -1,4 +1,6 @@
 .env
 vendor/
+node_modules/
 .git
 composer.lock
+package-lock.json

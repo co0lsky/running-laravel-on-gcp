@@ -25,3 +25,4 @@ Route::post('/{id}/trackings', 'AddTracking');
 
 
 Route::get('/mm/list', 'MM\Listing');
+Route::post('/mm/upload', 'MM\Upload');
