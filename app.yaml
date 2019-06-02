@@ -28,5 +28,6 @@ env_variables:
   FILESYSTEM_CLOUD: gcs
   GOOGLE_CLOUD_PROJECT_ID: running-laravel-on-gcp
   GOOGLE_CLOUD_STORAGE_BUCKET: running-laravel-on-gcp.appspot.com
+  GOOGLE_CLOUD_STORAGE_PATH_PREFIX: storage
   GOOGLE_CLOUD_STORAGE_API_URI: https://storage.cloud.google.com/running-laravel-on-gcp
 
