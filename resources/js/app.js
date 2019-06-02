@@ -28,7 +28,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 const mm = new MM({
     el: '#media-manager',
     api: {
-        baseUrl: 'http://localhost:8000/api/mm',
+        baseUrl: '/api/mm',
         listUrl: 'list',
         downloadUrl: 'download',  // optional
         uploadUrl: 'upload',      // optional
