@@ -23,7 +23,7 @@ env_variables:
   DB_DATABASE: running-laravel-on-gcp
   DB_USERNAME: root
   DB_PASSWORD: secret
-#  DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp"
+  DB_SOCKET: "/cloudsql/running-laravel-on-gcp:asia-southeast1:running-laravel-on-gcp-1"
   FILESYSTEM_DRIVER: gcs
   FILESYSTEM_CLOUD: gcs
   GOOGLE_CLOUD_PROJECT_ID: running-laravel-on-gcp
