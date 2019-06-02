@@ -11,6 +11,7 @@ handlers:
   - url: /(.*\.woff)
     mime_type: application/x-font-woff
     static_files: public/fonts/\1
+    upload: public/fonts/(.*\.woff)
 
   - url: .*
     script: auto
