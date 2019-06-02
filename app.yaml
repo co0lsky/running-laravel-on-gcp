@@ -4,8 +4,9 @@ handlers:
   # Serve a directory as a static resource.
   - url: /css
     static_dir: public/css
+
   - url: /js
-      static_dir: public/js
+    static_dir: public/js
 
 # Put production environment variables here.
 env_variables:
