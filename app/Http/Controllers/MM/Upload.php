@@ -29,7 +29,7 @@ class Upload extends Controller
 
         $media = $entry
             ->addMedia($file)
-            ->toMediaCollectionOnCloudDisk($path);
+            ->toMediaCollectionOnCloudDisk();
 
 //        $uploadedPath = $file->store($path);
 
