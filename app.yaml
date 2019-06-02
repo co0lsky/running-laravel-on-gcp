@@ -13,9 +13,6 @@ handlers:
     static_files: public/fonts/vendor/font-awesome
     upload: public/fonts/vendor/font-awesome/(.*\.woff)
 
-  - url: .*
-    script: auto
-
 # Put production environment variables here.
 env_variables:
   # Applicaton key
