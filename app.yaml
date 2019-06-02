@@ -8,6 +8,13 @@ handlers:
   - url: /js
     static_dir: public/js
 
+  - url: /(.*\.woff)
+    mime_type: application/x-font-woff
+    static_files: public/fonts/\1
+
+  - url: .*
+    script: auto
+
 # Put production environment variables here.
 env_variables:
   # Applicaton key
